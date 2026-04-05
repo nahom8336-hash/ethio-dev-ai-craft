@@ -1,16 +1,38 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Basic -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Nahom Portfolio</title>
+    <!-- Title -->
+    <title>Nahom Portfolio</title>
 
-  <!-- ✅ Base64 favicon (your icon) -->
-  <link
-    rel="icon"
-    type="image/png"
-    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEX///8AAADc3Nz19fW8vLw3Nzft7e35+fkuLi7j4+Pn5+fJycn09PTd3d3V1dX8/Pxra2uQkJBMTEyhoaFbW1uvr68+Pj6KiooSEhJRUVFWVlZ0dHQaGhrCwsInJydFRUWBgYGZmZmnp6djY2N6enohISEpKSkODg68w6phAAAC3UlEQVR4nO3a23LaMBSFYRcMJhwDCeZcTmny/m/YNE2JbS3LMhfd0cz/XVoaZq8ZsLYkkgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvqd+p9a4ad7Equg2ssGPWmlx3lFMOJuV3cK8PmAp4ZMYH5hV3cKDJ2Ax4VCNT+3qDrcITPgshl/syg639AUsJEzF6L5vWHio/j4sYfeXGF1aVh7qxRvwK+FKDC4sCw818ge8JZyqwY5p6WGyPCzhTL2OVra1h1FLnEp4EUPrzLb2IHKJEwnlvINx8UHUEqcSPoqRq3HtQQ6NAf8mlK+jB+vqA3TXgQnVvCfr6kOcmgN+JFSdeT6zrj6AXOJEwo56PrKuPsBsE5hwKx7vrKsPoTput0dNdWceRcetCnfTHMbqNXOxrj6EWuKeMzeh6syP1sWH0Eucm1C+b2PouGc/ReHzZKzyOKLouNUS1+sm3ZCAr+Pmzzc3HPQcg8OfjXye58fjcbHYbJ+v14VsetLmz49Bd3TZDd5UwCg6br+sc9mpn+mnGDpuj/5o3rCjiuKMu0Z3er427jZerau8Wz/deW4vvsTQcQv9pequlUfrUu8xXnqP9cti6LjLskOxP72qk/uiKM64i4bzwm9vvZokbl9asolhY18wKm0v5sP3Rw1dWxRXaTdp6UL3cfjx0J/wZFpwS2l5afh3uOtN+BZDx/1p1CuVvri9Ib0J4+m4J5W+rNBK+xJu7SpuJ6tuDYuLuC9hLB33tFcpfFO8QfIkjKXjPlcLL9/E1yfsxXCV9h7APQQud9L1CaO4Skse3APfyqFSbcIozriTqXsoMah89+oSvg1tSm5HnZBWd3t1CaO4SuuI7buz26tJmFsU3NZYnS05u72ahFF03Ooqzf3u6YSn/17tHdS/SnJ3iZMJ9zF03LOJ+HeveD/OpmHzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBb+A0Szhs9vdwBkAAAAABJRU5ErkJggg=="
-  />
+    <!-- ✅ Favicon (base64) -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEX///8AAADc3Nz19fW8vLw3Nzft7e35+fkuLi7j4+Pn5+fJycn09PTd3d3V1dX8/Pxra2uQkJBMTEyhoaFbW1uvr68+Pj6KiooSEhJRUVFWVlZ0dHQaGhrCwsInJydFRUWBgYGZmZmnp6djY2N6enohISEpKSkODg68w6phAAAC3UlEQVR4nO3a23LaMBSFYRcMJhwDCeZcTmny/m/YNE2JbS3LMhfd0cz/XVoaZq8ZsLYkkgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvqd+p9a4ad7Equg2ssGPWmlx3lFMOJuV3cK8PmAp4ZMYH5hV3cKDJ2Ax4VCNT+3qDrcITPgshl/syg639AUsJEzF6L5vWHio/j4sYfeXGF1aVh7qxRvwK+FKDC4sCw818ge8JZyqwY5p6WGyPCzhTL2OVra1h1FLnEp4EUPrzLb2IHKJEwnlvINx8UHUEqcSPoqRq3HtQQ6NAf8mlK+jB+vqA3TXgQnVvCfr6kOcmgN+JFSdeT6zrj6AXOJEwo56PrKuPsBsE5hwKx7vrKsPoTput0dNdWceRcetCnfTHMbqNXOxrj6EWuKeMzeh6syP1sWH0Eucm1C+b2PouGc/ReHzZKzyOKLouNUS1+sm3ZCAr+Pmzzc3HPQcg8OfjXye58fjcbHYbJ+v14VsetLmz49Bd3TZDd5UwCg6br+sc9mpn+mnGDpuj/5o3rCjiuKMu0Z3er427jZerau8Wz/deW4vvsTQcQv9pequlUfrUu8xXnqP9cti6LjLskOxP72qk/uiKM64i4bzwm9vvZokbl9asolhY18wKm0v5sP3Rw1dWxRXaTdp6UL3cfjx0J/wZFpwS2l5afh3uOtN+BZDx/1p1CuVvri9Ib0J4+m4J5W+rNBK+xJu7SpuJ6tuDYuLuC9hLB33tFcpfFO8QfIkjKXjPlcLL9/E1yfsxXCV9h7APQQud9L1CaO4Skse3APfyqFSbcIozriTqXsoMah89+oSvg1tSm5HnZBWd3t1CaO4SuuI7buz26tJmFsU3NZYnS05u72ahFF03Ooqzf3u6YSn/17tHdS/SnJ3iZMJ9zF03LOJ+HeveD/OpmHzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBb+A0Szhs9vdwBkAAAAABJRU5ErkJggg=="
+    />
 
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
-</head>
+    <!-- ✅ Google Fonts (optimized way) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ✅ SEO / Social -->
+    <meta property="og:title" content="Nahom Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- React entry -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
