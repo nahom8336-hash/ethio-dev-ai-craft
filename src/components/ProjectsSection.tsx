@@ -7,32 +7,28 @@ const projects = [
     description:
       "An intelligent conversational AI chatbot built with Python, leveraging NLP techniques for natural language understanding and context-aware responses.",
     tech: ["Python", "TensorFlow", "Flask", "React"],
-    demo: "#",
-    github: "#",
+    demo: "https://tryassistant.vercel.app/",
   },
   {
     title: "E-commerce Web Application",
     description:
       "A full-featured e-commerce platform with product catalog, cart management, payment integration, and an admin dashboard for inventory control.",
     tech: ["Next.js", "Node.js", "MongoDB", "Stripe"],
-    demo: "#",
-    github: "#",
+    demo: "https://mshop-seven.vercel.app/",
   },
   {
     title: "Task Management App",
     description:
       "A collaborative task management tool with real-time updates, drag-and-drop boards, team assignments, and progress tracking dashboards.",
     tech: ["React", "Express.js", "PostgreSQL", "Socket.io"],
-    demo: "#",
-    github: "#",
+    demo: "https://task-management-app-manthanank.vercel.app/",
   },
   {
     title: "Data Analysis Dashboard",
     description:
       "An interactive analytics dashboard for visualizing large datasets, featuring dynamic charts, filtering capabilities, and data export options.",
     tech: ["Python", "Django", "D3.js", "PostgreSQL"],
-    demo: "#",
-    github: "#",
+    demo: "https://data-dashboard-blm.netlify.app/",
   },
 ];
 
