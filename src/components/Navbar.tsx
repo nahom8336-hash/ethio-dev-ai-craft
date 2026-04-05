@@ -39,7 +39,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between h-16 md:h-20">
         <a href="#" className="font-heading text-xl font-bold glow-text">
-          &lt;Dev /&gt;
+          Nahom.
         </a>
 
         {/* Desktop */}
