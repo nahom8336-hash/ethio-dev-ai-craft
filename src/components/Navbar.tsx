@@ -99,7 +99,7 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-              <a href="#" className="mx-4 flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium rounded-lg bg-primary text-primary-foreground">
+              <a href="https://drive.google.com/file/d/1fgtCWtbZ7ZJzjSGy0-XoO8niUUm2eWoq/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="mx-4 flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium rounded-lg bg-primary text-primary-foreground">
                 <Download size={16} />
                 Resume
               </a>

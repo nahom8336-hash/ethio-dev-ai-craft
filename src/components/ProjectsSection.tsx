@@ -76,17 +76,12 @@ const ProjectsSection = () => {
               <div className="flex items-center gap-4">
                 <a
                   href={project.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   <ExternalLink size={14} />
                   Live Demo
-                </a>
-                <a
-                  href={project.github}
-                  className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  <Github size={14} />
-                  Source Code
                 </a>
               </div>
             </motion.div>

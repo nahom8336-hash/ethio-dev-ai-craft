@@ -37,28 +37,11 @@ const ContactSection = () => {
               to collaborate. Feel free to reach out!
             </p>
 
-            <div className="space-y-4 mb-8">
-              <a href="mailto:hello@example.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
+            <div className="space-y-4">
+              <a href="mailto:nahom8336@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
                 <Mail size={18} />
-                <span className="text-sm">hello@example.com</span>
+                <span className="text-sm">nahom8336@gmail.com</span>
               </a>
-            </div>
-
-            <div className="flex items-center gap-4">
-              {[
-                { icon: Github, href: "#", label: "GitHub" },
-                { icon: Linkedin, href: "#", label: "LinkedIn" },
-                { icon: Twitter, href: "#", label: "Twitter" },
-              ].map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  aria-label={social.label}
-                  className="p-3 rounded-lg bg-card border border-border hover:border-primary/50 hover:text-primary text-muted-foreground transition-all"
-                >
-                  <social.icon size={18} />
-                </a>
-              ))}
             </div>
           </motion.div>
 
