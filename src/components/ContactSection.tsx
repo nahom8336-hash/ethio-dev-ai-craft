@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Send, Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Send, Mail } from "lucide-react";
 
 const ContactSection = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
