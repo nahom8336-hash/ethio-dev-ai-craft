@@ -23,7 +23,7 @@ const AboutSection = () => {
           <div className="w-16 h-1 bg-primary rounded-full mb-8" />
 
           <p className="text-muted-foreground text-lg leading-relaxed max-w-3xl mb-12">
-            I'm a passionate Full Stack Developer and AI Trainer based in Ethiopia with over 4 years of
+            I'm Nahom Alemayehu — a Full Stack Developer and AI Trainer based in Ethiopia with over 4 years of
             professional experience. I specialize in building scalable, high-performance web applications
             and training machine learning models that solve real-world problems. My work sits at the
             intersection of software engineering and artificial intelligence — combining robust system

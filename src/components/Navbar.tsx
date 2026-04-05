@@ -18,6 +18,7 @@ const Navbar = () => {
 
   useEffect(() => {
     document.documentElement.classList.add("dark");
+    setIsDark(true);
   }, []);
 
   useEffect(() => {
