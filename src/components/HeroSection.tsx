@@ -19,7 +19,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="max-w-4xl mx-auto text-center"
+          className="max-w-4xl mx-auto"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -28,23 +28,23 @@ const HeroSection = () => {
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 text-primary text-sm font-medium mb-8"
           >
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse-glow" />
-            Available for opportunities
+            Open to new opportunities
           </motion.div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-heading font-bold leading-tight mb-6">
-            Building{" "}
-            <span className="gradient-text">Intelligent Systems</span>
-            <br />
-            & Scalable Web Apps
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-heading font-bold leading-tight mb-2">
+            Hey, I'm <span className="glow-text">Nahom</span>
           </h1>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-semibold text-muted-foreground mb-6">
+            Full Stack Developer & AI Trainer
+          </h2>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            Full Stack Developer & AI Trainer with 4+ years of experience crafting 
-            high-performance applications and training machine learning models.
-            Based in Ethiopia.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed">
+            I build scalable web apps and train machine learning models.
+            With 4+ years of hands-on experience, I turn complex problems
+            into clean, reliable software. Based in Ethiopia.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-4">
             <a
               href="#projects"
               className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-3.5 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity"
