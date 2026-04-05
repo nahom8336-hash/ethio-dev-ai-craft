@@ -58,7 +58,9 @@ const Navbar = () => {
             {isDark ? <Sun size={18} /> : <Moon size={18} />}
           </button>
           <a
-            href="#"
+            href="https://drive.google.com/file/d/1fgtCWtbZ7ZJzjSGy0-XoO8niUUm2eWoq/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
           >
             <Download size={16} />
@@ -97,7 +99,7 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-              <a href="#" className="mx-4 flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium rounded-lg bg-primary text-primary-foreground">
+              <a href="https://drive.google.com/file/d/1fgtCWtbZ7ZJzjSGy0-XoO8niUUm2eWoq/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="mx-4 flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium rounded-lg bg-primary text-primary-foreground">
                 <Download size={16} />
                 Resume
               </a>
